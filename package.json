@@ -8,11 +8,13 @@
   },
   "author": "arsalan salari",
   "license": "ISC",
-  "dependencies": {
-    "@babel/polyfill": "^7.4.4",
+  "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-proptypes": "^1.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
