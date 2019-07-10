@@ -1,11 +1,6 @@
-var React = require("react");
-var ReactDOM = require("react-dom");
+import React from 'react';
+import ReactDOM from 'react-dom';
 
+import Thing from './Thing';
 
-var Thing = require("./Thing");
-
-var div = document.createElement("div");
-
-document.body.appendChild(div);
-
-ReactDOM.render(<Thing/>,div);
+ReactDOM.render(<Thing/>, document.getElementById('app'));
